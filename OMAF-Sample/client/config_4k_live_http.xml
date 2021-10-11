@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<info>
+    <!-- windowWidth/windowHeight is for width and height of window -->
+    <windowWidth>960</windowWidth>
+    <windowHeight>960</windowHeight>
+    <!-- Resource URL, can be remote or local -->
+    <url>http://10.112.33.61:30002/LIVE4K/Test.mpd</url>
+    <!-- sourceType 0 is for DashSource -->
+    <sourceType>0</sourceType>
+    <!-- enableExtractor 0 is false and 1 is true -->
+    <enableExtractor>0</enableExtractor>
+    <StreamDumpedOption>0</StreamDumpedOption>
+    <!-- viewport settings -->
+    <viewportHFOV>80</viewportHFOV>
+    <viewportVFOV>80</viewportVFOV>
+    <viewportWidth>960</viewportWidth>
+    <viewportHeight>960</viewportHeight>
+    <!-- cache path -->
+    <cachePath>/tmp/cache</cachePath>
+    <!-- log level: INFO < WARNING < ERROR < FATAL -->
+    <minLogLevel>WARNING</minLogLevel>
+    <!-- limited video decoder resolution -->
+    <maxVideoDecodeWidth>2560</maxVideoDecodeWidth>
+    <maxVideoDecodeHeight>2560</maxVideoDecodeHeight>
+</info>
