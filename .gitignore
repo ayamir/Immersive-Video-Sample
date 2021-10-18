@@ -1,4 +1,5 @@
 .vscode
+.idea
 build
 FFmpeg
 player/360SCVPAPI.h
